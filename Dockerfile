@@ -18,5 +18,3 @@ ENV GOROOT /goroot
 ENV GOPATH /gopath
 ENV PATH $PATH:$GOROOT/bin:$GOPATH/bin
 
-# Install Docker.
-RUN wget -qO- https://get.docker.com/ | sh
